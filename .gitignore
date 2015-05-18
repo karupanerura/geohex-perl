@@ -18,3 +18,11 @@ ex/*
 diff_*
 .shipit
 pod.txt
+/Geo-Hex-*
+/.build
+/_build_params
+/Build
+/Build.bat
+!Build/
+!META.json
+!LICENSE
