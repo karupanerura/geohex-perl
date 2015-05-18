@@ -57,17 +57,18 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/makamaka/geohex-perl/issues"
+         "web" : "https://github.com/karupanerura/geohex-perl/issues"
       },
-      "homepage" : "https://github.com/makamaka/geohex-perl",
+      "homepage" : "https://github.com/karupanerura/geohex-perl",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/makamaka/geohex-perl.git",
-         "web" : "https://github.com/makamaka/geohex-perl"
+         "url" : "git://github.com/karupanerura/geohex-perl.git",
+         "web" : "https://github.com/karupanerura/geohex-perl"
       }
    },
    "version" : "0.01",
    "x_contributors" : [
-      "makamaka <makamaka.donzoko@gmail.com>"
+      "makamaka <makamaka.donzoko@gmail.com>",
+      "karupanerura <karupa@cpan.org>"
    ]
 }
