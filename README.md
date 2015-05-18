@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/karupanerura/geohex-perl.svg?branch=master)](https://travis-ci.org/karupanerura/geohex-perl) [![Coverage Status](https://img.shields.io/coveralls/karupanerura/geohex-perl/master.svg?style=flat)](https://coveralls.io/r/karupanerura/geohex-perl?branch=master)
 # NAME
 
 Geo::Hex - GeoHex decoder/encoder
