@@ -1,6 +1,6 @@
 package Geo::Hex::V3;
 
-use 5.008;
+use 5.008_001;
 use warnings;
 use strict;
 use Carp ();

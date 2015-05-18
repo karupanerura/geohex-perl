@@ -26,14 +26,10 @@
       ]
    },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "ExtUtils::MakeMaker" : "0",
+            "Module::Build::Tiny" : "0.035"
          }
       },
       "develop" : {
@@ -49,7 +45,11 @@
          "requires" : {
             "Math::Round" : "0",
             "Math::Trig" : "0",
-            "POSIX" : "0",
+            "POSIX" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
             "Test::More" : "0.96"
          }
       }

@@ -1,11 +1,11 @@
 requires 'Math::Round';
 requires 'Math::Trig';
-requires 'POSIX';
+requires 'perl', '5.008_001';
 
 on configure => sub {
-    requires 'ExtUtils::MakeMaker';
+    requires 'Module::Build::Tiny', '0.035';
 };
 
 on test => sub {
-    requires 'Test::More', '0.96';
+    requires 'Test::More';
 };
